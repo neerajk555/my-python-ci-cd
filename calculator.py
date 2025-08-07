@@ -11,4 +11,10 @@ def divide(a, b):
     if b != 0:
         return a / b
     else:
-        return "Division by zero error"     
+        return "Division by zero error"
+    
+def percentage(part, whole):
+    if whole != 0:
+        return (part / whole) * 100
+    else:
+        return "Division by zero error"
